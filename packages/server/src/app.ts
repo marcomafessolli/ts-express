@@ -1,7 +1,7 @@
 import express from 'express'
 import cors from 'cors'
 
-import mongoose from 'mongoose'
+import { Database } from '@ts-express/db'
 
 import Routes from './routes'
 
@@ -22,10 +22,7 @@ class App {
   }
 
   private database() {
-    mongoose.connect(`mongodb://${process.env.DB_HOST}:27017/express-app`, {
-      useNewUrlParser: true,
-      useUnifiedTopology: true
-    })
+    return Database.connect();
   }
 
   private routes() {

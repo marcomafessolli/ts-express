@@ -15,7 +15,7 @@
     "sucrase": "^3.16.0"
   },
   "dependencies": {
-    "@ts-express/schemas": "*",
+    "@ts-express/db": "*",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.10.15"

@@ -1,0 +1,10 @@
+{
+  "name": "@ts-express/db",
+  "version": "1.0.0",
+  "main": "src/database.ts",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "mongoose": "^5.10.15"
+  }
+}

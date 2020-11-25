@@ -1,6 +1,5 @@
 import { Request, Response } from 'express'
-
-import { User } from '../schemas/User'
+import { User } from '../../../db/schemas/User'
 
 class IndexController {
   async index(req: Request, res: Response): Promise<Response> {

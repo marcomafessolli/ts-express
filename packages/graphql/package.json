@@ -1,0 +1,19 @@
+{
+  "name": "@ts-express/graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/server.ts"
+  },
+  "dependencies": {
+    "@ts-express/db": "*",
+    "apollo-server": "^2.19.0",
+    "graphql": "^15.4.0"
+  },
+  "devDependencies": {
+    "@types/graphql": "^14.5.0",
+    "nodemon": "^2.0.6",
+    "sucrase": "^3.16.0"
+  }
+}
